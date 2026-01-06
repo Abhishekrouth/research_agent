@@ -4,13 +4,14 @@ This is a Research Agent, which is built using LangChain, gemini-2.5-flask, to p
 
 ## Features:
 
-### main.py
+### tools.py
+
 1. @tool 'def search_tool()': To take reference from: https://duckduckgo.com/
 2. @tool 'def wiki_tool()': To take reference from: https://www.wikipedia.org/
 3. @tool 'def save_tool(): To save the generated research content in text format.
     * It is saved in researched_files folder with a relevant name with the timestamp.
 
-### tools.py
+### main.py
 
 4. class ResearchResponse(): To generated the research in a structered format: 
     * topic: Topic provided by the user.
